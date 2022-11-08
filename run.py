@@ -39,3 +39,31 @@ def question_1():
     # L path
     if get_user_answer == 'l':
         alien_appears()
+
+
+# R path
+def wizard_appears():
+    print(
+        "On the way to the castle... a wizard appears. "
+        "The wizard asks 'You can ask me to craft a weapon, "
+        "what will you choose?' "
+        "Press 'R' for a raygun or 'L' for a Lightsaber ")
+    get_user_answer = validate_left_right()
+    if get_user_answer == 'r':
+        raygun()
+    if get_user_answer == 'l':
+        lightsaber()
+
+
+# L path
+def alien_appears():
+    print(
+        "While on your way to the UFO a foreign green creature with\n"
+         "one eye appears! "
+        "'Hello human, would you like to taste soda\n"
+        "from Jupiter?' Press 'R' for yes and 'L' for no\n")
+    get_user_answer = validate_left_right()
+    if get_user_answer == 'r':
+        lose_game()
+    if get_user_answer == 'l':
+        no_soda()
