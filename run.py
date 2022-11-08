@@ -7,3 +7,12 @@ def get_username():
             break
         else:
             print(f"{name} is not valid, please try again.")
+
+
+def validate_left_right():
+    while True:
+        question = input("Please enter 'R' or 'L'. ")
+        if question.lower() == 'l' or question.lower() == 'r':
+            return question.lower()
+        else:
+            print(f"{question} is not valid, please try again.")
