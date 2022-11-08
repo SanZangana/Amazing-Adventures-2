@@ -67,3 +67,22 @@ def alien_appears():
         lose_game()
     if get_user_answer == 'l':
         no_soda()
+
+
+# R path
+def lose_game():
+    print("You drink the soda but your vision starts to get blurry...\n" 
+        "you pass out. GAME OVER. Press 'R' to restart the game ")
+
+
+# L path
+def no_soda():
+    print("You neglect the offer and keep walking on the path to the UFO.\n"
+     "You come to a lake with a bridge and you wonder if\n" 
+    "you should swim across or walk across the bridge.\n"
+    "Press 'R' for swim or 'L' for walk")
+    get_user_answer = validate_left_right()
+    if get_user_answer == 'r':
+        swim()
+    if get_user_answer == 'l':
+        walk()
