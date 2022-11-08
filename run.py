@@ -97,3 +97,16 @@ def swim():
 def walk():
     print("You reached the UFO! Good job. You enter the UFO and the\n"
      "aliens give you a ride through the Galaxy. Thank you for playing! ")
+
+
+
+# R path
+def raygun():
+    print("You acquired the desired weapon, keep walking\n"
+    "forward or take a shortcut? Press 'R'\n" 
+    "for forward or 'L' for shortcut")
+    get_user_answer = validate_left_right()
+    if get_user_answer == 'r':
+        forward()
+    if get_user_answer == 'l':
+        shortcut()
