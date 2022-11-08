@@ -30,3 +30,12 @@ def question_1():
         "Press enter 'R' for the castle or 'L' for the UFO.\n")
 
     get_user_answer = validate_left_right()
+
+
+ # R path
+    if get_user_answer == 'r':
+        wizard_appears()
+
+    # L path
+    if get_user_answer == 'l':
+        alien_appears()
