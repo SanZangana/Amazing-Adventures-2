@@ -86,3 +86,14 @@ def no_soda():
         swim()
     if get_user_answer == 'l':
         walk()
+
+
+# L path 
+def swim():
+    print("You jump in the water but there's a alligator in there and\n"
+     "as soon as you do your first stroke the alligator eats you. YOU LOSE")
+
+# R path 
+def walk():
+    print("You reached the UFO! Good job. You enter the UFO and the\n"
+     "aliens give you a ride through the Galaxy. Thank you for playing! ")
