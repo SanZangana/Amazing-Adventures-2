@@ -130,3 +130,28 @@ def forward():
     if get_user_answer == 'l':
         laser_beam()
 
+# R path 
+def radiation_beam():
+    print("Oh no, you lost! The demon is\n"
+    "immune to radiation and eats you.")
+
+
+# L path
+def laser_beam():
+    print("The laser instantly melts the demon!\n"
+    "Congratulaions you won! ")
+
+
+if __name__ == "__main__":
+    input("Hello and welcome to Amazing Adventures. To start, please press enter key ")
+    get_username()
+    question_1()
+    while True:
+        restart = input("Would you like to play again? Press 'Y' or 'N'.\n")  
+        if restart.lower() == 'n':
+            print("Thanks for playing!\n")
+            break
+        elif restart.lower() != 'y':
+            print(f"{restart} is not valid, please try again")
+        else:
+            question_1()
