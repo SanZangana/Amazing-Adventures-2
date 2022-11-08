@@ -1,3 +1,9 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+# user enters name and game proceeds...
+def get_username():
+    while True:
+        name = input("Before we start, type in your name: ")
+        if name.isalpha():
+            print(f"Get ready {name} the Amazing Adventure starts now!")
+            break
+        else:
+            print(f"{name} is not valid, please try again.")
