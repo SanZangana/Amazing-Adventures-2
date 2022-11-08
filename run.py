@@ -110,3 +110,23 @@ def raygun():
         forward()
     if get_user_answer == 'l':
         shortcut()
+
+# R path
+def shortcut():
+    print("The shortcut leads you to a pack of "
+    "wolves that chase you down... and you LOSE! ")
+
+
+
+# R path
+def forward():
+    print("You're finally at the gates to the castle...\n"
+    "but before you enter you must defeat\n"
+    "the demon that guards the castle.\n"
+    "Press 'R' to use radiation beam or 'L' for laser beam ")
+    get_user_answer = validate_left_right()
+    if get_user_answer == 'r':
+        radiation_beam()
+    if get_user_answer == 'l':
+        laser_beam()
+
