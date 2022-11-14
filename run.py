@@ -42,9 +42,9 @@ def question_1():
 # R path
 def wizard_appears():
     print(
-        "On the way to the castle... a wizard appears. "
-        "The wizard asks 'You can ask me to craft a weapon, "
-        "what will you choose?' "
+        "On the way to the castle... a wizard appears.\n"
+        "The wizard asks 'You can ask me to craft a weapon,\n"
+        "what will you choose?'\n"
         "Press 'R' for a raygun or 'L' for a Lightsaber ")
     get_user_answer = validate_left_right()
     if get_user_answer == 'r':
