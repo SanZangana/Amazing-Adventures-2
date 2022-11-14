@@ -30,9 +30,7 @@ def question_1():
         "Press enter 'R' for the castle or 'L' for the UFO.\n")
 
     get_user_answer = validate_left_right()
-
-
- # R path
+    # R path
     if get_user_answer == 'r':
         wizard_appears()
 
@@ -59,7 +57,7 @@ def wizard_appears():
 def alien_appears():
     print(
         "While on your way to the UFO a foreign green creature with\n"
-         "one eye appears! "
+        "one eye appears! "
         "'Hello human, would you like to taste soda\n"
         "from Jupiter?' Press 'R' for yes and 'L' for no\n")
     get_user_answer = validate_left_right()
@@ -71,16 +69,16 @@ def alien_appears():
 
 # R path
 def lose_game():
-    print("You drink the soda but your vision starts to get blurry...\n" 
-        "you pass out. GAME OVER. Press 'R' to restart the game ")
+    print("You drink the soda but your vision starts to get blurry...\n")
+    print("you pass out. GAME OVER. Press 'R' to restart the game ")
 
 
 # L path
 def no_soda():
-    print("You neglect the offer and keep walking on the path to the UFO.\n"
-     "You come to a lake with a bridge and you wonder if\n" 
-    "you should swim across or walk across the bridge.\n"
-    "Press 'R' for swim or 'L' for walk")
+    print("You neglect the offer and keep walking on the path to the UFO.\n")
+    print("You come to a lake with a bridge and you wonder if\n")
+    print("you should swim across or walk across the bridge.\n")
+    print("Press 'R' for swim or 'L' for walk")
     get_user_answer = validate_left_right()
     if get_user_answer == 'r':
         swim()
@@ -88,77 +86,79 @@ def no_soda():
         walk()
 
 
-# L path 
+# L path
 def swim():
-    print("You jump in the water but there's a alligator in there and\n"
-     "as soon as you do your first stroke the alligator eats you. YOU LOSE")
+    print("You jump in the water but there's a alligator in there and\n")
+    print("as soon as you do your first stroke the alligator eats you".)
+    print("YOU LOSE")
 
-# R path 
+    # R path
 def walk():
-    print("You reached the UFO! Good job. You enter the UFO and the\n"
-     "aliens give you a ride through the Galaxy. Thank you for playing! ")
+    print("You reached the UFO! Good job. You enter the UFO and the\n")
+    print("aliens give you a ride through the Galaxy. Thank you for playing! ")
 
 
-
-# R path
+    # R path
 def raygun():
-    print("You acquired the desired weapon, keep walking\n"
-    "forward or take a shortcut? Press 'R'\n" 
-    "for forward or 'L' for shortcut")
+    print("You acquired the desired weapon, keep walking\n")
+    print("forward or take a shortcut? Press 'R'\n")
+    print("for forward or 'L' for shortcut")
     get_user_answer = validate_left_right()
     if get_user_answer == 'r':
         forward()
     if get_user_answer == 'l':
         shortcut()
+
 
 def lightsaber():
-    print("You acquired the desired weapon, keep walking\n"
-    "forward or take a shortcut? Press 'R'\n" 
-    "for forward or 'L' for shortcut")
+    print("You acquired the desired weapon, keep walking\n")
+    print("forward or take a shortcut? Press 'R'\n")
+    print("for forward or 'L' for shortcut")
     get_user_answer = validate_left_right()
     if get_user_answer == 'r':
         forward()
     if get_user_answer == 'l':
         shortcut()
 
-# R path
+
+    # R path
 def shortcut():
-    print("The shortcut leads you to a pack of "
-    "wolves that chase you down... and you LOSE! ")
+    print("The shortcut leads you to a pack of ")
+    print("wolves that chase you down... and you LOSE! ")
 
 
-
-# R path
+    # R path
 def forward():
-    print("You're finally at the gates to the castle...\n"
-    "but before you enter you must defeat\n"
-    "the demon that guards the castle.\n"
-    "Press 'R' to use radiation beam or 'L' for laser beam ")
+    print("You're finally at the gates to the castle...\n")
+    print("but before you enter you must defeat\n")
+    print("the demon that guards the castle.\n")
+    print("Press 'R' to use radiation beam or 'L' for laser beam ")
     get_user_answer = validate_left_right()
     if get_user_answer == 'r':
         radiation_beam()
     if get_user_answer == 'l':
         laser_beam()
 
-# R path
+
+    # R path
 def radiation_beam():
-    print("Oh no, you lost! The demon is\n"
-    "immune to radiation and eats you.")
+    print("Oh no, you lost! The demon is\n")
+    print("immune to radiation and eats you.")
 
 
-# L path
+    # L path
 def laser_beam():
-    print("The laser instantly melts the demon!\n"
-    "Congratulaions you won! ")
+    print("The laser instantly melts the demon!\n")
+    print("Congratulaions you won! ")
 
 
 if __name__ == "__main__":
-    input("Hello and welcome to Amazing Adventures. "
-    "To start, please press enter key ")
+    input("Hello and welcome to Amazing Adventures. ")
+    input("To start, please press any key ")
     get_username()
     question_1()
     while True:
-        restart = input("Would you like to play again? Press 'Y' or 'N'.\n")  
+        restart = input("Would you like to play again? Press 'Y' or 'N'.\n")
         if restart.lower() == 'n':
             print("Thanks for playing!\n")
             break
