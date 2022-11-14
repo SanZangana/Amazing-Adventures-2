@@ -111,6 +111,16 @@ def raygun():
     if get_user_answer == 'l':
         shortcut()
 
+def lightsaber():
+    print("You acquired the desired weapon, keep walking\n"
+    "forward or take a shortcut? Press 'R'\n" 
+    "for forward or 'L' for shortcut")
+    get_user_answer = validate_left_right()
+    if get_user_answer == 'r':
+        forward()
+    if get_user_answer == 'l':
+        shortcut()
+
 # R path
 def shortcut():
     print("The shortcut leads you to a pack of "
@@ -130,7 +140,7 @@ def forward():
     if get_user_answer == 'l':
         laser_beam()
 
-# R path 
+# R path
 def radiation_beam():
     print("Oh no, you lost! The demon is\n"
     "immune to radiation and eats you.")
@@ -143,7 +153,8 @@ def laser_beam():
 
 
 if __name__ == "__main__":
-    input("Hello and welcome to Amazing Adventures. To start, please press enter key ")
+    input("Hello and welcome to Amazing Adventures. "
+    "To start, please press enter key ")
     get_username()
     question_1()
     while True:
