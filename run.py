@@ -89,7 +89,7 @@ def no_soda():
 # L path
 def swim():
     print("You jump in the water but there's a alligator in there and\n")
-    print("as soon as you do your first stroke the alligator eats you".)
+    print("as soon as you do your first stroke the alligator eats you")
     print("YOU LOSE")
 
     # R path
