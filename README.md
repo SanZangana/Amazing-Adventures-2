@@ -12,7 +12,7 @@ The instructions pop up on the terminal once the game starts and from there you 
 The game has different adventures and the user has full control over the outcomes. When a scenario is described in the game, the user then gets two choices and can choose from these two with the help of pressing either 'R' or 'L'.
 
 ## Features
-- _Intro_
+- Start Game
 The game starts with a welcome message and allows the user to enter their desired name. 
 
 ![Intro](documents//aa2-main.png)
@@ -21,12 +21,16 @@ The game starts with a welcome message and allows the user to enter their desire
 The user then has a two choices to make and therefor the 'destiny' of the game is in the users hands.
 
 The game has a 'restart' function for when the user either 1. Completes the game or 2. Loses the game (takes the wrong path).
+
 ![Win](documents//aa2-win.png)
+
 ![Lose](documents//aa2-lose.png)
 
 If the user doesn't press said key, so for example 'R' or 'L', a error message appears telling the user to do the validation process correct.
 This also affects the 'Enter your name' section.
+
 ![Validation](documents//aa2-validation.png)
+
 ![Name Validation](documents//aa2-validation2.png)
 
 ## Testing
