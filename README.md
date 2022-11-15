@@ -1,11 +1,11 @@
 # Amazing Adventures
 
-I present to you, 'Amazing Adventures'! A fun game that has different paths and YOU are the one in charge of the adventure. This game was made with python and it runs in the Code Institute mock terminal on Heroku
+I present to you, 'Amazing Adventures 2'! A fun game that has different paths and YOU are the one in charge of the adventure. This game was made with python and it runs in the Code Institute mock terminal on Heroku
 ![AmIResponsive](images//amiresponsive_python.png)
 
 ## Game Instructions
 
-Amazing Adventures is intended to be fun for every age group so therefore the mechanics are very easy to comprehend!
+Amazing Adventures 2 is intended to be fun for every age group so therefore the mechanics are very easy to comprehend!
 
 The instructions pop up on the terminal once the game starts and from there you can just read the scenario and choose your own path.
 
