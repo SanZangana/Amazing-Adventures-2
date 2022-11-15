@@ -153,7 +153,7 @@ def laser_beam():
 
 
 if __name__ == "__main__":
-    input("Welcome to Amazing Adventures 2, press any key to start. ")
+    input("Welcome to Amazing Adventures 2, press 'enter' to start. ")
     get_username()
     question_1()
     while True:
