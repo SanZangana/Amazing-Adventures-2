@@ -1,7 +1,7 @@
 # Amazing Adventures
 
 I present to you, 'Amazing Adventures'! A fun game that has different paths and YOU are the one in charge of the adventure. This game was made with python and it runs in the Code Institute mock terminal on Heroku
-![AmIResponsive](documents//amiresponsive_python.png)
+![AmIResponsive](images//amiresponsive_python.png)
 
 ## Game Instructions
 
@@ -12,30 +12,31 @@ The instructions pop up on the terminal once the game starts and from there you 
 The game has different adventures and the user has full control over the outcomes. When a scenario is described in the game, the user then gets two choices and can choose from these two with the help of pressing either 'R' or 'L'.
 
 ## Features
-- Start Game
-The game starts with a welcome message and allows the user to enter their desired name. 
 
-![Intro](documents//aa2-main.png)
-![Intro2](documents//aa2-name.png)
 
-## Other Functions 
+- __Main Page__
 
-The user then has a two choices to make and therefor the 'destiny' of the game is in the users hands.
+    - The game starts with a welcome message and allows the user to enter their desired name. 
 
-The game has a 'restart' function for when the user either 1. Completes the game or 2. Loses the game (takes the wrong path).
+![Intro](images//aa2-main-new2.png)
+![Intro2](images//aa2-main-new.png)
 
-![Win](documents//aa2-win.png)
+- __Game mechanics & functions__
+    - As soon as the game starts the user has two choices to make. Each choice leading to a different path. 
+    - The game has a 'restart' function for when the user either 1. Completes the game or 2. Loses the game (takes the wrong path).
 
-![Lose](documents//aa2-lose.png)
+![Win](images//aa2-win.png)
 
-## Validation
+![Lose](images//aa2-lose.png)
 
-If the user doesn't press said key, so for example 'R' or 'L', a error message appears telling the user to do the validation process correct.
+- __Validation__
+
+    - If the user doesn't press said key, so for example 'R' or 'L', a error message appears telling the user to do the validation process correct.
 This also affects the 'Enter your name' section.
 
-![Validation](documents//aa2-validation.png)
+![Validation](images//aa2-validation.png)
 
-![Name Validation](documents//aa2-validation2.png)
+![Name Validation](images//aa2-validation2.png)
 
 ## Testing
 
