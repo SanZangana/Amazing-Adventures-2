@@ -18,6 +18,8 @@ The game starts with a welcome message and allows the user to enter their desire
 ![Intro](documents//aa2-main.png)
 ![Intro2](documents//aa2-name.png)
 
+## Other Functions 
+
 The user then has a two choices to make and therefor the 'destiny' of the game is in the users hands.
 
 The game has a 'restart' function for when the user either 1. Completes the game or 2. Loses the game (takes the wrong path).
@@ -25,6 +27,8 @@ The game has a 'restart' function for when the user either 1. Completes the game
 ![Win](documents//aa2-win.png)
 
 ![Lose](documents//aa2-lose.png)
+
+## Validation
 
 If the user doesn't press said key, so for example 'R' or 'L', a error message appears telling the user to do the validation process correct.
 This also affects the 'Enter your name' section.
@@ -50,7 +54,7 @@ As mentioned above, PEP8 was used for the validation. No errors were returned.
 
 Code Institute has provided a [template](https://github.com/Code-Institute-Org/python-essentials-template) to display the terminal view of this backend application in a modern web browser. This is to improve the accessibility of the project to others.
 
-The live deployed application can be found at [https://amazing-adventure.herokuapp.com/](https://amazing-adventure.herokuapp.com/).
+The live deployed application can be found at [https://amazing-adventures-2.herokuapp.com/]().
 
 ### Local Deployment
 
