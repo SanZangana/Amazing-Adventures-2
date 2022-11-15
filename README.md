@@ -54,18 +54,18 @@ As mentioned above, PEP8 was used for the validation. No errors were returned.
 
 Code Institute has provided a [template](https://github.com/Code-Institute-Org/python-essentials-template) to display the terminal view of this backend application in a modern web browser. This is to improve the accessibility of the project to others.
 
-The live deployed application can be found at [https://amazing-adventures-2.herokuapp.com/]().
+The live deployed application can be found at [https://amazing-adventures-2.herokuapp.com/](https://amazing-adventures-2.herokuapp.com/).
 
 ### Local Deployment
 
 *Gitpod* IDE was used to write the code for this project.
 
 To make a local copy of this repository, you can clone the project by typing the follow into your IDE terminal:
-- `git clone https://github.com/SanZangana/Amazing-Adventure-python-.git`
+- `git clone https://github.com/SanZangana/Amazing-Adventures-2`
 
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/SanZangana/Amazing-Adventure-python-)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/SanZangana/Amazing-Adventure-2)
 
 ### Heroku Deployment
 
