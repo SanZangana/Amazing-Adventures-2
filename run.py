@@ -101,7 +101,7 @@ def walk():
     # R path
 def raygun():
     print("You acquired the desired weapon, keep walking\n")
-    print("forward or take a shortcut? Press 'R'\n")
+    print("forward or take a shortcut? Press 'R'")
     print("for forward or 'L' for shortcut")
     get_user_answer = validate_left_right()
     if get_user_answer == 'r':
@@ -154,7 +154,7 @@ def laser_beam():
 
 if __name__ == "__main__":
     input("Hello and welcome to Amazing Adventures. ")
-    input("To start, please press any key ")
+    ("To start, please press any key ")
     get_username()
     question_1()
     while True:
